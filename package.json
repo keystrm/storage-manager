@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/keystrm/storage-manager/issues"
   },
-  "homepage": "https://github.com/keystrm/storage-manager#readme"
+  "homepage": "https://github.com/keystrm/storage-manager#readme",
+  "dependencies": {
+    "tsup": "^8.0.2"
+  }
 }
