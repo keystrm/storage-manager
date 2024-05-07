@@ -18,7 +18,9 @@
     "url": "https://github.com/keystrm/storage-manager/issues"
   },
   "homepage": "https://github.com/keystrm/storage-manager#readme",
-  "dependencies": {
-    "tsup": "^8.0.2"
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   }
 }
