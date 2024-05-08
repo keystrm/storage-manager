@@ -50,6 +50,8 @@ npx changeset
 
 make a new version
 
+add workflow ymls for both release and main workflows
+
 
 
 
