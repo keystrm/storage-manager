@@ -16,7 +16,8 @@ tsc --init
 start typescript
 
 ```bash
-npm install tsup 
+npm install -D typescript
+npm install -D tsup 
 ```
 install tsup to make our code in library format
 
@@ -31,6 +32,28 @@ define build script
 npm run build
 ```
 build in dist folder
+
+```bash
+install -D @changesets/cli && npx changeset init
+```
+sementic versioning 
+
+`changeset` config can be changed to 
+```json
+"access": "public"
+```
+if you wanted
+
+```bash
+npx changeset
+``` 
+
+make a new version
+
+add workflow ymls for both release and main workflows
+
+
+
 
 
 
