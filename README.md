@@ -2,7 +2,7 @@ This package is testing package that build with support of
 https://javascript.plainenglish.io/how-to-create-a-typescript-npm-library-for-dummies-6633f2506a17
 article however it gonna use to manage local storage on js
 
-##summary
+## summary
 
 ```bash
 npm init -y
@@ -51,6 +51,15 @@ npx changeset
 make a new version
 
 add workflow ymls for both release and main workflows
+
+
+## Initial Publish to NPM
+```bash
+npm login --auth-type=legacy
+npm publish 
+```
+
+to do this we need a unique name
 
 
 
