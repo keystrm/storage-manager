@@ -1,5 +1,5 @@
 {
-  "name": "storage-manager",
+  "name": "@keystrm/storage-manager",
   "version": "1.0.2",
   "description": "a simple storage manager",
   "main": "index.js",
