@@ -56,7 +56,7 @@ add workflow ymls for both release and main workflows
 ## Initial Publish to NPM
 ```bash
 npm login --auth-type=legacy
-npm publish 
+npm publish --access=public
 ```
 
 to do this we need a unique name
